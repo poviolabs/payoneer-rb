@@ -6,6 +6,7 @@ Gem::Specification.new do |s|
   s.platform      = Gem::Platform::RUBY
   s.license       = 'MIT'
   s.summary       = 'Payoneer V4 integration'
+  s.authors       = ['Povio Inc.']
 
   s.files         =  Dir.glob('{lib, spec}/**/*')
   s.files         += %w[CHANGELOG.md LICENSE README.md]
